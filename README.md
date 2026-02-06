@@ -39,7 +39,7 @@ each letter is then matched with a letter from `letters_done`, just select best 
 
 `letters_done` was created by multiple `extract_letters.py` runs and then manually assigning letters and/or checking if auto assignment was correct.
 
-this is not the most clean extaction of the letters and templates, but didn't care. was not that many variations.\
+this is not the most clean extraction of the letters and templates, but I didn't care. there were not that many variations.\
 first manual assignment of letters took like 30min or so.
 
 2 hours were spend around to find out that `letter_l_1988.png` should have been `letter_1_1988.png`. 🤷
