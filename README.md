@@ -9,6 +9,7 @@ https://creativecommons.org/publicdomain/zero/1.0/
 
 ## A simple OCR
 
+0. get linux, you will have a very funny experience with windows.. 😈
 1. extract images with `pdfimages`
 2. edit first and last page, to match the other pages..
 2. run `extract_letters.py` (already done in this repro)
