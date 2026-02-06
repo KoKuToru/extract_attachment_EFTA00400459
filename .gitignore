@@ -3,5 +3,6 @@ img-*
 *.txt
 original
 *.pdf
-
-
+__pycache__
+test_letter.py
+letter_assigner_gtk.py
