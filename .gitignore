@@ -6,3 +6,4 @@ original
 __pycache__
 test_letter.py
 letter_assigner_gtk.py
+deduplicate_letters.py
