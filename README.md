@@ -34,10 +34,15 @@ calculated with `sha224sum`
 in this file a monospace font of size `8x12` (`w=8px, h=12px`) is used.\
 we just readout all letters, starting at position `y=39px, x=61px`.\
 but because the font `advance_x` is not exactly `8px` apparently .. we are using `8px - 1/5` (found by try & error)\
-lineheigh is `15px`.\
+lineheight is `15px`.\
 each letter is then matched with a letter from `letters_done`, just select best `F.l1_loss`.
 
 `letters_done` was created by multiple `extract_letters.py` runs and then manually assigning letters and/or checking if auto assignment was correct.
+
+this is not the most clean extaction of the letters and templates, but didn't care. was not that many variations.\
+first manual assignment of letters took like 30min or so.
+
+2 hours were spend around to find out that `letter_l_1988.png` should have been `letter_1_1988.png`. 🤷
 
 ## How can I use this on other files?
 
