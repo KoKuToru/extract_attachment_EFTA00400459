@@ -1,5 +1,9 @@
 # Extract Attachment From EFTA00400459
 
+thanks to the one who contacted me by mail..
+see also https://www.reddit.com/r/netsec/comments/1qw4sfa/recreating_uncensored_epstein_pdfs_from_raw/
+
+
 a simple OCR
 
 1. extract images with `pdfimages`
