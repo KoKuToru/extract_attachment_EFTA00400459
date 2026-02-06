@@ -50,6 +50,8 @@ and just checking if it was correctly auto-assigned resulting in ~1000 letter va
 
 2 hours were spend around to find out that `letter_l_1988.png` should have been `letter_1_1988.png`. 🤷
 
+reduced the amount of letters required / optimized the templates with `reduce_letters.py`
+
 ## How can I use this on other files?
 
 uhm, understand the code and modify it.
