@@ -11,7 +11,7 @@ https://creativecommons.org/publicdomain/zero/1.0/
 
 0. get linux, you will have a very funny experience with windows.. 😈
 1. extract images with `pdfimages`
-2. edit first and last page, to match the other pages..
+2. edit first and last page, to match the other pages.. and remove stuff we are not interested in
 2. run `extract_letters.py` (already done in this repro)
 3. set the correct `letter` in the `letters` folder like `letter_?_?.png` where the first `?` is the letter.. (already done in this repro)
 4. move it to `lettter_done` (already done in this repro)
