@@ -11,13 +11,13 @@ https://creativecommons.org/publicdomain/zero/1.0/
 
 0. get linux, you will have a very funny experience with windows.. 😈
 1. extract images with `pdfimages EFTA00400459.pdf img`
-2. edit `img-000.png`,\
-remove everything above the base64,\
-overlay `img-001.png`,\
+2. edit `img-000.png` in a image-editor,\
+remove everything above the base64, make everything white we don't need,\
+overlay `img-001.png` as a guide,\
 shift `img-000.png` up or down until `>` matches exactly with `img-001.png`,\
-remove the `img-001.png` overlay
-4. edit `img-075.png`,\
-remove everything after the base64
+don't forget to remove the `img-001.png` overlay before saving :P
+4. edit `img-075.png` in a image-editor,\
+remove everything after the base64, make everything white we don't need
 5. run `ocr.py` and profit
 
 ## Resulting SHA224
