@@ -3,8 +3,11 @@
 thanks to the one who contacted me by mail..
 see also https://www.reddit.com/r/netsec/comments/1qw4sfa/recreating_uncensored_epstein_pdfs_from_raw/
 
+## License
 
-a simple OCR
+https://creativecommons.org/publicdomain/zero/1.0/
+
+## A simple OCR
 
 1. extract images with `pdfimages`
 2. edit first and last page, to match the other pages..
@@ -15,6 +18,6 @@ a simple OCR
 
 if ocr is wrong, change `if F.l1_loss(letter, uletter) < 1/0xFF:` in `extract_letters.py` to like `if F.l1_loss(letter, uletter) < 1/0xFF/4:` and rerun `extract_letters.py`... repeat until `ocr` works..
 
-# How can I use this on other files?
+## How can I use this on other files?
 
 uhm, understand the code and modify it.
