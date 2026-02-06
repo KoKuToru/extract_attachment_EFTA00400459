@@ -37,10 +37,13 @@ but because the font `advance_x` is not exactly `8px` apparently .. we are using
 lineheight is `15px`.\
 each letter is then matched with a letter from `letters_done`, just select best `F.l1_loss`.
 
-`letters_done` was created by multiple `extract_letters.py` runs and then manually assigning letters and/or checking if auto assignment was correct.
+`letters_done` was created by running `extract_letters.py` and then manually assigning letters and/or checking if auto assignment was correct.
+and then replace `letters` with `letters_done` and repeating..
 
 this is not the most clean extraction of the letters and templates, but I didn't care. there were not that many variations.\
-first manual assignment of letters took like 30min or so.
+first manual assignment of letters took like 30min or so (~300 letters).\
+and then rerun with `F.l1_loss(letter, uletter) < 1/0xFF/???` can't remember,\
+and just checking if it was correctly auto-assigned resulting in ~1000 letter variations
 
 2 hours were spend around to find out that `letter_l_1988.png` should have been `letter_1_1988.png`. 🤷
 
